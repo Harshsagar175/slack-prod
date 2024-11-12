@@ -75,10 +75,10 @@ export const SignInCard = ({ setState }: SignInCardProps) => {
                     />
                     <Button type="submit" className="w-full" size="lg" disabled={pending}>Continue</Button>
                 </form>
-                <Separator />
+{/*                 <Separator />
                 <div className="flex flex-col gap-y-2.5">
                     <Button disabled={pending} onClick={() => onProvidersignIn("github")} variant="outline" size="lg" className="w-full relative">Continue with Github  <FaGithub className="size-5 absolute top-2.5 left-2.5" /> </Button>
-                </div>
+                </div> */}
                 <p className="text-xs text-muted-foreground">
                     Don&apos;t have an account? <span onClick={() => setState("signUp")} className="text-sky-900 hover:underline cursor-pointer">Sign up</span>
                 </p>
