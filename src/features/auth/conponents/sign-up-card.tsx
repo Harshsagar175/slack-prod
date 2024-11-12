@@ -110,7 +110,7 @@ export const SignUpCard = ({ setState }: SignUpCardProps) => {
             Continue
           </Button>
         </form>
-        <Separator />
+{/*         <Separator />
         <div className="flex flex-col gap-y-2.5">
           <Button
             disabled={pending}
@@ -122,7 +122,7 @@ export const SignUpCard = ({ setState }: SignUpCardProps) => {
             Continue with GitHub{" "}
             <FaGithub className="size-5 absolute top-2.5 left-2.5" />{" "}
           </Button>
-        </div>
+        </div> */}
         <p className="text-xs text-muted-foreground">
           Already have an account?{" "}
           <span
